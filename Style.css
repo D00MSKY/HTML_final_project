@@ -575,7 +575,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    text-decoration: none;
 }
 
 .A_s3{
@@ -612,6 +612,7 @@ header{
     font-weight: 400;
     line-height: 150%;
     margin-top: 20px;
+    text-decoration: none;
 }
 .A_f3{
     color: #FFF;
@@ -621,6 +622,7 @@ header{
     font-weight: 400;
     line-height: 150%;
     margin-top: 20px;
+    text-decoration: none;
 }
 
 .A-Footer-2{
@@ -651,5 +653,13 @@ div.A-Footer>div.A-flex>header.A_h1>p{
 }
 .A_h3, .A_s3, .A_f3{
     margin-left: 144px;
+}
+.A_s4{
+    grid-row: span 2;
+    padding-top: 30px;
+}
+.A_s5{
+    grid-row: span 2;
+    padding-top: 15px;
 }
 
